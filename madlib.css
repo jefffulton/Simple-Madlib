@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body, input {
+    background: #88B04B;
+    font-size: 16pt;
+    font-family: Georgia, Times New Roman, serif;
+    text-align: center;
+}
+input {
+    background: #eee;
+    text-align: left;
+    border: 1px solid #ddd;
+    padding: 1%;
+    margin: 5px;
+    width: 98%;
+}
+input:focus {
+    outline: 1px !important;
+    border-color: #88b04b;
+    box-shadow: none;
+    background: #fff;
+}
+a {
+    text-decoration: none;
+    color: #88B04B;
+}
+a:hover {
+    color: #888;
+}
+h2 {
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+p {
+    margin-bottom: 20px;
+}
+#container {
+    margin: 1% auto;
+    width: 88%;
+    padding: 5%;
+    background: #fff;
+}
+header {
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 30px;
+}
+hr {
+    text-align: center;
+    border: 0px solid #ddd;
+    border-bottom-width: 1px;
+    margin: 40px 0;
+}
+button {
+    margin: 30px auto;
+    font-family: Georgia, Times New Roman, serif;
+    font-weight: normal;
+    font-size: 1.5em;
+    padding: 10px 30px;
+    background: #88b04b;
+    color: #fff;
+    border: none;
+    -webkit-box-shadow: inset 0 0 10px 0 rgba(0, 0, 0, .2);
+    box-shadow: inset 0 0 10px 0 rgba(0, 0, 0, .2);
+}
+button:hover {
+    background: #777;
+    cursor: pointer;
+    -webkit-transition: background 1s ease;
+    -moz-transition: background 1s ease;
+    -ms-transition: background 1s ease;
+    -o-transition: background 1s ease;
+    transition: background 1s ease;
+}
+ul {
+    list-style: none;
+    width: 100%;
+    margin-top: 30px;
+}
+li {
+    width: 48%;
+    margin: 1%;
+    display: inline;
+    float: left;
+}
+#story {
+    text-align: left;
+    display: block;
+    background: #eee;
+}
+#storywrap {
+    padding: 30px;
+    border: 3px solid #88b04b;
+}
+
+@media only screen and (max-width: 640px) {
+    li {
+        width: 100%;
+        margin 1% 0px;
+        display: block;
+        float: none;
+    }
+    input {
+        width: 92%;
+    }
+}
